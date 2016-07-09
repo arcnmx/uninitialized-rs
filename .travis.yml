@@ -5,7 +5,9 @@ rust:
 - nightly
 sudo: false
 dist: trusty
-os: linux
+os:
+- linux
+- osx
 cache:
   directories:
   - "$HOME/.cargo"
