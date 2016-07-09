@@ -25,3 +25,14 @@ pub const UNINITIALIZED: bool = true;
 /// A constant indicating whether the `uninitialized` feature is enabled.
 #[cfg(not(feature = "uninitialized"))]
 pub const UNINITIALIZED: bool = false;
+
+#[test]
+fn test() {
+    let data: [u8; 1] = unsafe { uninitialized() };
+
+    if !UNINITIALIZED {
+        assert_eq!(data[0], 0);
+    } else {
+        println!("UNINITIALIZED set, test skipped");
+    }
+}

@@ -9,6 +9,8 @@ external interfaces. By default it is equivalent to `std::mem::zeroed()`.
 ## Enabling uninitialized
 
 The feature `uninitialized` may be turned on to revert to the unsafe behaviour.
+Optionally, the `UNSAFE_UNINITIALIZED=1` environment variable may be set at
+build time.
 
 ## [Documentation][docs]
 
