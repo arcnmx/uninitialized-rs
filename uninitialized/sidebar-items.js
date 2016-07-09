@@ -1,1 +1,1 @@
-initSidebarItems({"constant":[["UNINITIALIZED","A constant indicating whether the `uninitialized` feature is enabled."]],"fn":[["uninitialized","Creates a value initialized to zero."]]});
+initSidebarItems({"constant":[["UNINITIALIZED","A constant indicating whether the `uninitialized` feature is enabled."]],"fn":[["uninitialized","Bypasses Rust's normal memory-initialization checks by pretending to produce a value of type T, while doing nothing at all."]]});
