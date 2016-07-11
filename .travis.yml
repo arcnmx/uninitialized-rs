@@ -12,6 +12,10 @@ cache:
   directories:
   - "$HOME/.cargo"
   - target
+matrix:
+  fast_finish: true
+  allow_failures:
+  - rust: nightly
 env:
   global:
   - secure: bNl7TewSmQ/wV9BOdonY1+nHrw9DvKu5PeuAkJx4oH3XNadvM/XDydUYsZBl97nkqVEiQf6ghbVkjMioMAFr3905EabtR3AC7jDVHhLUfXrD4qkQ2RYDSgu5vR+A6hQkMy9qD66T1L7Cms2rfDJbbKWI+LGZxEAFcSJjPwwWD1cxG46iGXN9wJAFl/1qWCBUM4DvEtnJEFt6BpJVDpVHNiAxId1vjYe4kTCQbKYCb5jLAjv8zGbmTWrd0VQj1XjCdRuEBRyLqL+egvilJS4SwueGaRqeE4p4AetATsXcErfZNwmQ0FyEuo4NBcJcv1ovOhbOfrVHCI6TA1Hn/ZIO02UfjHtu9rwlrUS9+GcEQAzpvvGPEWdUbiNXHOoer3JxyDku4ACNAvPbtLuWS6joZZLzgZ5uou3MEs8p84/2pppEXeYfRY6CjkP5B9QPPciXsfX1jLIh2f8QoAlSAi+EywAKi37lcnJiWWFbQYbNRS6XINv5aGnqqmzmgBNbzDxbb9aJg/zX3SYPOBRf/deZv+Jg9AY5rsHOxhn/Bh+PgDBl1cPX3fRM0s9WqzT96446+Rww3vQPruvzKvYS4cNG0wCS8yrhbmXfBZDbnf9diLequNx5UEcTSE22GESMNseiQTqlaTi0fYU2biAczGSeVjROXHn3l7+4LDGXNR1ucwE=
