@@ -7,7 +7,6 @@ sudo: false
 dist: trusty
 os:
 - linux
-- osx
 cache:
   directories:
   - "$HOME/.cargo"
